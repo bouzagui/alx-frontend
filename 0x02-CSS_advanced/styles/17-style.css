@@ -453,6 +453,10 @@
     margin-left: auto;
  }
  
+ .section {
+    padding: var(--section-padding);
+ }
+ 
  .section-header {
      text-align: var(--section-header-align);
      padding: var(--section-header-padding);
@@ -467,9 +471,6 @@
     text-align: var(--section-footer-align);
  }
 
- .section {
-    padding: var(--section-padding);
- }
 
  .section-title {
      font-family: var(--font-family-title);
